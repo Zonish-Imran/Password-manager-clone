@@ -1,0 +1,9 @@
+.container{
+  background-image: url(./assets/images/bg.svg);
+   background-size: cover;   
+  /* background-position: center;  */
+  /* background-repeat: no-repeat; */
+  /* height: 100%; */
+  max-width: 100%;
+  background-color: #0F1A62;
+}

@@ -1,0 +1,33 @@
+.cards-container {
+    padding: 100px 50px;
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;         
+  scrollbar-width: none; 
+}
+
+.feature-card {
+  width: 25% ;       
+  background: #0E1A60;    
+  border-radius: 10px;
+  border: 1px solid whitesmoke;
+  padding: 20px;
+  color: #fff;
+  flex-shrink: 0;        
+}
+.feature-card .icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 12px;
+}
+
+.feature-card h3 {
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+
+.feature-card p {
+  font-size: 17px;
+  line-height: 1.4;
+}
