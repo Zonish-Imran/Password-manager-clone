@@ -24,7 +24,7 @@
     color: white;
 }
 
-.navbar .nav-links a {
+.navbar .nav-links  {
     text-decoration: none;
     align-items: center;
     margin: 10px;
