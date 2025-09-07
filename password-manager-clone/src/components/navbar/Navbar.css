@@ -38,6 +38,7 @@
     background-color: white;
     color: black;
     margin-bottom: 10px;
+    text-decoration: none;
 }
 
 .navbar .nav-links .signup-button:hover {
@@ -52,6 +53,7 @@
     background-color: rgb(28, 28, 117);
     color: white;
     border: 1px solid white;
+    text-decoration: none;
 }
 
 .navbar .nav-links .login-button:hover {

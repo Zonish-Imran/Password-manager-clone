@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import '../login/Login.css'
 import logo from '../../assets/images/10005.svg'
+import { Link } from "react-router-dom";
 
 function Login() {
     const [keySeed, setKeySeed] = useState("");
@@ -42,7 +43,7 @@ function Login() {
                         <button type="submit">Next</button>
                     </form>
                     <p>
-                        Don’t you have any account? <a href="#">Register</a>
+                        Don’t you have any account? <Link to="/signup">Register</Link>
                     </p>
                 </div>
             </div>
