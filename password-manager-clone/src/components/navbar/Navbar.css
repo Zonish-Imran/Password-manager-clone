@@ -4,7 +4,6 @@
     align-items: center;
     background: transparent;
     margin: 0px;
-
 }
 
 .navbar .logo {
@@ -13,6 +12,7 @@
     gap: 10px;
     cursor: pointer;
     padding: 10px 20px;
+    margin-left: 30px;
 }
 
 .navbar .logo img {
@@ -25,10 +25,10 @@
     margin-top: 10px;
 }
 
-.navbar .nav-links  {
+.navbar .nav-links {
     text-decoration: none;
     align-items: center;
-    margin: 10px 10px 10px 10px;
+    margin: 8px;
     gap: 20px;
 }
 
@@ -61,4 +61,15 @@
 
 .navbar .nav-links .login-button:hover {
     background-color: #0E1A5F;
+}
+
+/* media queries for ipad mini */
+@media only screen and (min-width:768px)and (max-width:1024px) {
+    .navbar .logo {
+        margin: 0px 0px 20px 20px;
+    }
+
+    .navbar .nav-links {
+        margin-top: 0px
+    }
 }

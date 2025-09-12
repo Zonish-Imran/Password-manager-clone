@@ -1,21 +1,22 @@
 .cards-container {
-    padding: 100px 50px;
+  padding: 100px 50px;
   display: flex;
   gap: 16px;
-  overflow-x: auto;         
-  scrollbar-width: none; 
+  overflow-x: auto;
+  scrollbar-width: none;
 }
 
 .feature-card {
-  width: 30% ;       
-  background: #0E1A60;    
+  width: 30%;
+  background: #0E1A60;
   border-radius: 10px;
   border: 1px solid whitesmoke;
   padding: 30px;
   color: #fff;
-  flex-shrink: 0; 
-  margin: 60px 0px ;       
+  flex-shrink: 0;
+  margin: 60px 0px;
 }
+
 .feature-card .icon {
   width: 50px;
   height: 50px;
@@ -31,4 +32,19 @@
 .feature-card p {
   font-size: 17px;
   line-height: 1.4;
+}
+
+/* media queries for ipad mini */
+@media only screen and (min-width:768px)and (max-width:1024px) {
+  .cards-container {
+    margin: 60px;
+    padding: 0px;
+  }
+
+  .feature-card {
+    width: 50%;
+    padding: 30px 30px 30px 30px;
+    margin: 20px 0px;
+  
+  }
 }

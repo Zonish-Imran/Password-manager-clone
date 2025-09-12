@@ -1,13 +1,11 @@
 .seed-container {
     background-image: url(../../assets/images/seed.svg);
-    background-size: cover;           /* pura fill karega */
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;     /* scroll par stretch nahi hoga */
-    
+    background-position: center;
     width: 100%;
-    min-height: 100vh;                /* screen ke barabar height */
+    min-height: 100vh;
     background-color: #0E1A60;
-
     display: flex;
     margin: 0;
     padding: 0;
@@ -66,10 +64,9 @@
     font-size: 16px;
     display: flex;
     flex-direction: column;
-    position: relative;  
+    position: relative;
 }
 
-/* Seed words */
 .seed-container .right-side .seed-words {
     font-size: 14px;
     word-wrap: break-word;
@@ -78,23 +75,6 @@
     gap: 10px;
 }
 
-
-/* .seed-actions {
-  position: absolute;
-   bottom: 10px;    
-  right: 15px; 
-  display: flex;
-  flex-direction: row-reverse;
-  gap: 15px;
-} */
-
-
-.seed-container .right-side .warning {
-    color: #d084f5;
-    align-self: flex-start;
-    margin: 0px 0px 10px 100px;
-    font-size: 15px;
-}
 .seed-container .right-side .seed-box .btn {
     display: flex;
     flex-direction: row;
@@ -110,6 +90,13 @@
     gap: 6px;
     cursor: pointer;
     margin: 0px;
+}
+
+.seed-container .right-side .warning {
+    color: #d084f5;
+    align-self: flex-start;
+    margin: 0px 0px 10px 120px;
+    font-size: 15px;
 }
 
 
@@ -131,7 +118,59 @@
     color: #ccc;
 }
 
-.seed-container .right-side .link-login a {
+.seed-container .right-side .link-login {
     color: #a855f7;
     text-decoration: none;
+}
+
+/* media queries for ipad mini */
+@media only screen and (min-width:768px)and (max-width:1024px) {
+    .seed-container .logo {
+        padding: 90px 0px 10px 30px;
+    }
+
+    .seed-container .desc p {
+        font-size: 25px;
+        padding: 10px 0px 10px 70px;
+    }
+
+    .seed-container .logo img {
+        width: 15%;
+    }
+
+    .seed-container .logo h1 {
+        font-size: 25px;
+        color: white;
+    }
+
+    .seed-container .right-side h1 {
+        padding: 350px 100px 0px 200px;
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    .seed-container .right-side .seed-box {
+        width: 85%;
+        margin: 20px 0px 0px 25px;
+    }
+
+    .seed-container .right-side .seed-box .btn {
+        gap: 10px;
+        width: 30%;
+    }
+
+    .seed-container .right-side .warning {
+        margin: 0px 0px 10px 50px;
+        font-size: 17px;
+    }
+
+    .seed-container .right-side .btn-next {
+        font-size: 18px;
+        width: 60%;
+    }
+
+    .seed-container .right-side .link-login {
+        margin: 10px 0px 40px 40px;
+        font-size: 16px;
+    }
 }

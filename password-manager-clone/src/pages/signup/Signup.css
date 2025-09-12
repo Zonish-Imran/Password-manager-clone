@@ -1,4 +1,4 @@
-.signup-container{
+.signup-container {
     background-image: url(../../assets/images/signup.svg);
     background-size: cover;
     max-width: 100%;
@@ -8,6 +8,7 @@
     padding: 0;
     min-height: 100vh;
 }
+
 .signup-container .left-side {
     width: 50%;
 }
@@ -17,7 +18,7 @@
     justify-items: center;
     gap: 10px;
     cursor: pointer;
-    padding: 100px 90px 10px ;
+    padding: 100px 90px 10px;
     align-items: center;
 }
 
@@ -49,12 +50,12 @@
     margin-bottom: 0px;
 }
 
-.signup-container .right-side p{
+.signup-container .right-side p {
     padding: 15px 30px 15px 0px;
     margin: 0px;
     text-align: center;
-   font-size: 18px;
-   line-height: 23px;
+    font-size: 18px;
+    line-height: 23px;
 }
 
 .signup-container .right-side button {
@@ -68,13 +69,54 @@
     font-weight: lighter;
     cursor: pointer;
 }
+
 .signup-container .right-side .link {
     margin: 0px 0px 40px 0px;
     font-size: 12px;
     color: #ccc;
 }
 
-.signup-container .right-side a {
-    color: #a855f7 ;
+.signup-container .right-side .link {
+    color: #a855f7;
     text-decoration: none;
+}
+
+/* media queries for ipad mini */
+@media only screen and (min-width:768px)and (max-width:1024px) {
+
+    .signup-container {
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .signup-container .logo {
+        padding: 100px 0px 0px 20px;
+    }
+
+    .signup-container .desc p {
+        padding: 10px 60px;
+    }
+
+    .signup-container .right-side h1 {
+        padding: 380px 100px 0px 50px;
+        width: 500px;
+    }
+
+    .signup-container .right-side p {
+        font-size: 20px;
+    }
+
+    .signup-container .right-side button {
+        width: 70%;
+        margin: 10px 0px 0px 50px;
+        font-size: medium;
+        padding: 10px 6px;
+    }
+
+    .signup-container .right-side .link {
+        margin: 0px 0px 40px 0px;
+        font-size: 15px;
+        color: #ccc;
+    }
 }
